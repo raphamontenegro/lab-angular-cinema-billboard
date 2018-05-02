@@ -1,0 +1,10 @@
+<h1>
+  🔥🔥🔥 Welcome to Hellgullar Cinema 🔥🔥🔥
+</h1>
+
+
+<div *ngFor="let movie of movies">
+<p>
+  <a [routerLink]="['/movie', movie.id]">{{movie.title}}</a>
+</p>
+</div>
